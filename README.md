@@ -1,1 +1,1 @@
-# docker-centos-mariadb
+# Docker based on Centos with MaraiaDB
