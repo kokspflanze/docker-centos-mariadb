@@ -1,6 +1,8 @@
-FROM kokspflanze/centos-systemd:latest
+FROM centos:latest
 
 MAINTAINER "KoKsPfLaNzE" <kokspflanze@protonmail.com>
+
+ENV container docker
 
 # we want some config changes
 COPY config/MariaDB.repo /etc/yum.repos.d/
